@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px auto;
+	padding: 0px;
+	
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	color: white;
+}
+
+.headtop {
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
+
+.headnav > ul > li {
+	list-style-type: none;
+	float: left;
+	margin-right: 30px;
+}
+.headnav > ul > li:nth-child(1){
+	margin-left: 10px;
+}
+
+.headnav > ul > li >a{
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+	height: 30px;	
+	margin-top: 30px;
+}
+
+.sectiontitle {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+
+.sectiontext{
+	margin-left: 20px; 
+	margin-bottom: 30px;
+}
+
+.sectionul {
+	margin-left: 40px; 
+	margin-bottom: 30px;
+	list-style-type: decimal;
+}
+
+.insertUserMiddleDiv{
+	margin: 0xp auto;	
+}
+
+.insertUserMiddleDiv > form > .btndiv {
+	margin-left: 50%;
+	margin-top: 20px;
+}
+.insertUserMiddleDiv > form > .btndiv > input:nth-child(1) {
+	margin-right: 30px;
+}
+
+table {
+	border: 1px black solid;
+	border-collapse: separate;
+}

@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="css/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/js.js" />
+</head>
+<body>
+<header>
+
+<div class="headtop">
+<h3>권한관리</h3>
+</div>
+
+<nav class="headnav">
+
+</nav>
+
+</header>
+
+
+</body>
+</html>

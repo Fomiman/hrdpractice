@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #ffdfaa;
+}
+
+header>div {
+	height: 50px;
+	line-height: 50px;
+}
+
+header>div>h2{
+	margin: 0px auto;
+}
+
+header>nav {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	background: black;
+}
+
+header>nav>a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+}
+
+div>h2 {
+	margin: 30px;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: separate;
+	margin-bottom: 50px;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+.indexPageWrap {
+	padding: 20px;
+}
+
+.indexPageDiv *{
+	text-align: left;	
+}
+
+
+li {
+	margin-left: 20px;
+}
+
+.insertEmpTable {
+	width: 400px;
+}
+
+.insertEmpTable td {
+	text-align: left;
+}
+
+.insertEmpTable .buttontd {
+	text-align: center;
+}
+
+.selectEmpTable {
+	width: 600px;
+}
+
+.selectEmpTable a{
+	text-decoration: none;
+	color: black;
+}
+
+input {
+	text-align: left;
+}
+
+.salaryTable {
+	width: 800px;
+}

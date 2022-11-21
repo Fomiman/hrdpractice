@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+ 
+function inertUser(){
+	if(f.user_no.value == null)
+	
+}

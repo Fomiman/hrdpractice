@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+ 
+function insertUser(){
+	if(!f.user_no.value){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(!f.user_name.value){
+		alert("회원명을 입력해주세요.");
+		return f.user_name.focus();
+	}
+	if(!f.user_pw.value){
+		alert("비밀번호를 입력 해주세요.");
+		return f.user_pw.focus();
+	}
+	if(!f.user_pw2.value){
+		alert("비밀번호 확인란을 입력 해주세요.");
+		return f.user_pw2.focus();
+	}
+	if(f.user_pw2.value != f.user_pw.value ){
+		alert("비밀번호가 일치하지 않습니다..");
+		return f.user_pw2.focus();
+	}
+	if(!f.dept_no.value){
+		alert("소속부서번호를 입력 해주세요.");
+		return f.dept_no.focus();
+	}
+	if(!f.user_gbn.value){
+		alert("사용자구분을 입력 해주세요.");
+		return f.user_gbn.focus();
+	}
+	if(!f.reg_date.value){
+		alert("등록일자가 입력되지 않았습니다.");
+		return f.reg_date.focus();
+	}
+	
+	
+	if(confirm("등록하시겠습니까?")){
+		f.action="insertUserPro.jsp";
+		f.submit();
+	}
+}

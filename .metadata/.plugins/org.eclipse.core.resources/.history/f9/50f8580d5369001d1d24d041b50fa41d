@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+	<%@ include file="dbconn.jsp"%>	
+<%
+int user_no = Integer.parseInt(request.getParameter("user_no"));
+String user_name = request.getParameter("user_name");
+int user_pw = Integer.parseInt(request.getParameter("user_pw"));
+int dept_no = Integer.parseInt(request.getParameter("dept_no"));
+String user_gbn = request.getParameter("user_gbn");
+String reg_date = request.getParameter("reg_date");
+
+sql = "insert into USER_TBL_08 values(?, ?, ?, ?, ?, ?)";
+
+pstmt = con.prepareStatement(sql);
+pstmt.setInt(1, user_no);
+pstmt.setString(2, user_name);
+pstmt.setInt(3, user_pw);
+pstmt.setInt(4, dept_no);
+pstmt.setString(5, user_gbn);
+pstmt.setString(6, reg_date);
+
+int updateSuccess = pstmt.executeUpdate();
+
+%>

@@ -1,0 +1,17 @@
+--권한관리
+
+--테이블 1
+create table USER_TBL_08 (
+	user_no char(5) not null , --pk
+	user_name varchar(50) not null,
+	user_pw varchar(50) ,
+	dept_no char(3),
+	user_gbn char(2),
+	reg_date date,
+	
+	primary key(user_no)
+	
+);
+
+--테이블 1 샘플데이터
+insert into USER_TBL_08 values(10001, '홍길동', 1111 , 'A01', 'U1' ,'18/01/10');

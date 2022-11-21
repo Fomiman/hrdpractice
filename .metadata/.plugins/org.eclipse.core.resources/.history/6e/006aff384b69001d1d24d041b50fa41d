@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+ 
+function inertUser(){
+	if(f.user_no.value == null){
+		f.user_no.focus();
+	}
+	
+	
+}

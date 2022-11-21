@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<footer>
+HRDKorea 2022-11-21 test
+</footer>
+
+</body>
+</html>
+
+<%
+try{
+	if(con != null) con.close();
+	if(stmt != null) stmt.close();
+	if(pstmt != null) pstmt.close();
+	if(rs != null) rs.close();
+	
+}catch(Exception e){
+	e.printStackTrace();
+}
+
+%>

@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+ 
+function inertUser(){
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_no.value == null){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	
+	
+}

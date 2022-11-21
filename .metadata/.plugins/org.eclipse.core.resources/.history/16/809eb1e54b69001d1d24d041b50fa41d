@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+ 
+function inertUser(){
+	if(f.user_no.value == null  || f.user_no.value == 0){
+		alert("회원번호가 입력되지 않았습니다.");
+		return f.user_no.focus();
+	}
+	if(f.user_name.value == null){
+		alert("회원명을 입력해주세요.");
+		return f.user_name.focus();
+	}
+	if(f.user_pw.value == null){
+		alert("비밀번호를 입력 해주세요.");
+		return f.user_pw.focus();
+	}
+	if(f.user_pw2.value == null){
+		alert("비밀번호 확인란을 입력 해주세요.");
+		return f.user_pw2.focus();
+	}
+	if(f.user_pw2.value != f.user_pw.value){
+		alert("비밀번호가 일치하지 않습니다..");
+		return f.user_pw2.focus();
+	}
+	if(f.dept_no.value == null){
+		alert("소속부서번호를 입력 해주세요.");
+		return f.dept_no.focus();
+	}
+	if(f.user_gbn.value == null){
+		alert("사용자구분을 입력 해주세요.");
+		return f.user_gbn.focus();
+	}
+	if(f.reg_date.value == null || f.reg_date.value == 0){
+		alert("등록일자가 입력되지 않았습니다.");
+		return f.reg_date.focus();
+	}
+	
+}

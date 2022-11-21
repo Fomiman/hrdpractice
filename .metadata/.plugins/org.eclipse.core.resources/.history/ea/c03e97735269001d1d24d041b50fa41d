@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+	<%@ include file="dbconn.jsp"%>	
+<%
+int user_no = Integer.parseInt(request.getParameter("user_no"));
+String user_name = request.getParameter("user_name");
+int user_pw = Integer.parseInt(request.getParameter("user_pw"));
+int dept_no = Integer.parseInt(request.getParameter("dept_no"));
+String user_gbn = request.getParameter("user_gbn");
+String reg_date = request.getParameter("reg_date");
+
+sql
+
+%>

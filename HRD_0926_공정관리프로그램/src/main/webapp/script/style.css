@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* 공정관리 프로그램용 CSS 파일 */
+* { /* 전체 선택자 : 모든 요소에 기본적인 스타일을 적용시켜두고 필요시 각 요소에 스타일을 변경하여 사용 */
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #ffdfaa;
+}
+
+header>div {
+	height: 50px;
+	line-height: 50px;
+}
+
+header>div>h2{
+	margin: 0px auto;
+}
+
+header>nav {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	background: black;
+}
+
+header>nav>a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+}
+
+h1 {
+	margin: 30px;
+}
+
+div>h2 {
+	margin: 30px;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: separate;
+	margin-bottom: 50px;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+.indexPageDiv *{
+	text-align: left;	
+}
+
+.insert1table {
+	width: 400px;
+}
+
+.insert1table td { /* 작업공정등록 페이지 테이블의 td */
+	text-align: left;
+}
+
+.insert1table tr:last-child > td { /* 작업공정등록 페이지 테이블 마지막 tr 의 td => 버튼이 들어가는 칸 */
+	text-align: center;
+}
+
+.LookupTable{
+	width: 800px;
+}
+
+.LookupTable td:last-child { /* 제품조회페이지 테이블 제품단가 우측정렬 */
+	text-align: right;
+}
+
+input[type="radio"] { /* input의 타입별로 선택하는 방법 */
+	margin-left: 10px;
+}
+
+.orderTable {
+	width: 800px;
+}
+
+.alignRight { /* 우측정렬 필요한 곳에만 넣을 클래스 */
+	text-align: right;
+}
+
+li {
+	margin-left: 20px;
+}
