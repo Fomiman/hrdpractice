@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="C:\Program Files\Java\jdk1.8.0_351" stamp="1669079373020"/>
-    <entry loc="D:\2022국비교육\설치파일\영어-이클립스\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" stamp="1669115598989"/>
-    <entry loc="C:\Users\yn-14\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" stamp="1664846440766"/>
-    <entry loc="D:\2022국비교육\설치파일\영어-이클립스\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre" stamp="1669115595725"/>
+    <entry loc="C:\Program Files\Java\jdk1.8.0_333\jre" stamp="1658387278850"/>
+    <entry loc="D:\국비교육\영어-이클립스\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre" stamp="1658384979350"/>
+    <entry loc="D:\국비교육\영어-이클립스\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" stamp="1658384979752"/>
 </dirs>

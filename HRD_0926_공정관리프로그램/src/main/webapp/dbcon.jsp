@@ -6,7 +6,7 @@
 request.setCharacterEncoding("UTF-8");
 /* 사용되는 페이지들의 인코딩 타입을 UTF-8로 설정해준다. 자바부분에 적용되는 건가 어딘지 헷갈리는데 일단 적용됨 */
 
-String url = "jdbc:oracle:thin:@localhost:1521/xe";
+String url = "jdbc:oracle:thin:@//localhost:1521/xe";
 /* 오라클 서버 접속용 url */
 
 Class.forName("oracle.jdbc.OracleDriver");

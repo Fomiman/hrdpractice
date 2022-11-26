@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="HRD_0916_대학생성적관리프로그램_0919까지">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <property name="java-output-path" value="/HRD_0916_대학생성적관리프로그램_0919까지/build/classes"/>
+        <property name="context-root" value="HRD_0916_대학생성적관리프로그램_0919까지"/>
+            
+    </wb-module>
+    
+</project-modules>
