@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+	margin :0;
+	padding :0;
+}
+
+header {
+	background-color: #0080ff;
+	color : white;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+}
+
+nav {
+	background-color: #75baff;
+	line-height: 30px;
+	height: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+}
+
+section {
+	height: 700px;
+	padding: 10px;
+	overflow: auto;
+}
+
+section div {
+	text-align: center;
+	margin: 30px;
+}
+
+ol li {
+	margin-left: 30px;
+}
+
+table {
+	margin: 0 auto; /* 테이블 중앙 정렬 */
+}
+
+footer {
+	background-color: #0080ff;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}

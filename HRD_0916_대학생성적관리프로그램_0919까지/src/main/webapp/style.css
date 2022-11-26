@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+#headerTopDiv, footer {
+	width : 100% ;
+	height : 80px;
+	color: black;
+	background-color: #fdebca;
+	text-align: center;
+	line-height: 80px;	
+}
+
+nav {
+	background-color: black;
+	height: 30px;
+	width: 100%;
+	text-align: left;
+}
+
+nav a {
+	text-decoration: none;
+	margin-left: 30px; 
+	color: white;
+	line-height: 30px;
+}
+
+section {
+	overflow: auto;
+	padding: 10px;
+	height: 500px;
+	background-color: white;
+}
+
+section h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+section p {
+	text-align: left;	
+	margin-top: 30px;
+}
+
+
+
+section ol li {
+	text-align: left;	
+	margin-left: 30px; 
+}
+
+table{
+	margin: 0px auto;
+	border: 1px black solid; 
+	border-collapse: separate;
+}
+
+th {
+	font: bold;	
+}
+
+th, td {
+	border: 1px black solid; 
+}
+
+#insertStudentTable {
+	width: 600px;
+}
+
+#insertStudentTable th {
+	text-align: center;
+	 width : 100px;
+}
+
+label {
+	margin-left: 10px;
+	line-height: 25px;
+}
+
+.button1{
+	margin-right: 30px;
+}
+
+#insertScoreTable {
+	width: 400px;
+}

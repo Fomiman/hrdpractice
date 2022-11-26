@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
-  <module moduleId="org.eclipse.jst.jee.server:HRD_1122_커피숍회원관리" serverId="Tomcat v8.5 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:HRD_0926_공정관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:HRD_1121_권한관리" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0915_홈쇼핑회원관리_수정삭제따로" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0916_대학생성적관리프로그램_0919까지" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0922_영화관회원예매관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_1007_홈쇼핑회원관리_자바빈" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:영화관예매_승기" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0905_쇼핑몰관리" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:HRD_1005_커피숍회원관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0913_홈쇼핑회원관리" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:영화관예매" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:영화관예매_호진" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_홈쇼핑회원관리_수정삭제함께2_내꺼수정" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0913_쇼핑몰관리"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0919_수강생관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0913_고교성적관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0926_공정관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0913_쇼핑몰관리_javascript파일따로" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_홈쇼핑회원관리_수정삭제함께" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:수강생관리_송호진" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_대학생성적관리프로그램_0919까지" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0930_급여관리프로그램" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_0915_홈쇼핑회원관리_수정삭제따로_자바스크립트 따로" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_1007_홈쇼핑_자바빈" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HRD_1007_쇼핑몰_자바빈" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>

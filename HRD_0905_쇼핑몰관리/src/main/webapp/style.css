@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0; /* 바깥쪽 여백 0 */
+	padding: 0; /* 안쪽 여백 0 */
+}
+
+header {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #eee1d5;
+	color: black;
+	text-shadow: white 0px 0px 1px;
+}
+
+nav {
+	background-color: black;
+	color: white;
+	height: 25px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	vertical-align: middle;
+}
+
+td a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	height: 500px;
+	padding: 10px;
+	overflow: auto;
+	padding: 10px;
+}
+
+section div {
+	margin: 20px;
+}
+
+section h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section ol {
+	margin-left: 20px;
+}
+
+table {
+	margin: 0px auto;
+	border: 1px solid black;
+	border-collapse: separate;
+}
+
+.inserttable, .updatetable {
+	width: 500px;
+	height: 300px;
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+.inserttable th {
+	width: 100px;
+}
+
+.selecttable {
+	width: 900px;
+	height: 300px;
+}
+
+.select2table {
+	text-align: center;
+	}
+
+.button1 {
+	text-align: center;
+}
+
+input {
+	margin: 5px;
+	height: 20px;
+}
+
+footer {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	text-shadow: white 0px 0px 1px;
+}

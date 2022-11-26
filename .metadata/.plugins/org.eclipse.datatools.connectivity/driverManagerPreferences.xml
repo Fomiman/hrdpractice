@@ -1,5 +1,5 @@
 #DriverManager.Preferences
-#Mon Nov 21 09:17:26 KST 2022
+#Mon Sep 05 10:17:12 KST 2022
 org.eclipse.datatools.enablement.ibm.db2.luw.jdbc4.driverTemplate=true
 org.eclipse.datatools.enablement.ibm.db2.luw.driverTemplate=true
 org.eclipse.datatools.enablement.ibm.db2.luw.other.driverTemplate=true
